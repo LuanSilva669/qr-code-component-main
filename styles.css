@@ -4,43 +4,47 @@ flex-wrap: wrap;
 justify-content: center;
 background-color: blue;
 align-items: center;
+background-color: hsl(212, 45%, 89%);
 
 
 }
 div {
     margin-top: 10vh;
- flex-direction: column;
+    flex-direction: row;
  align-items: center;
- flex-wrap: wrap;
+flex-wrap: wrap;
  display: flex; 
  background-color:white ;
  border-radius: 0.8em;
  width: 20em;
- height:28em; 
-    
+ height:32em; 
+ flex-flow: column nowrap;
 }    
 img {
     justify-content: center;
     width: 9em;
-    height: 8em;
+    height: 10em;
     border-radius: 0.8em;
     
 }
-
+.container {
+    background-color: white;
+    margin-top: -20px;
+width: 50vh;
+height: 15vh;
+}
 h2 {
     font-family: kanit;
-    font-size: 3vh;
+    font-size: 4vh;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
    
 }
-h3 {
-    font-size: 2vh;
+h3 {  
     font-family: 'Kanit', sans-serif;
-    font-weight: 400;
-    text-align: center;
-    margin-top: 20;
+    text-align: center;  
+    font-size: 2vh;
 }
 
 
