@@ -1,51 +1,63 @@
 body{
-    display: flex;
+display: flex;
 flex-wrap: wrap;
 justify-content: center;
 background-color: blue;
 align-items: center;
 background-color: hsl(212, 45%, 89%);
-
-
+flex-direction: column;
 }
+
 div {
-    margin-top: 10vh;
-    flex-direction: row;
- align-items: center;
+margin-top: 2vh;
+flex-direction: row;
+align-items: center;
 flex-wrap: wrap;
- display: flex; 
- background-color:white ;
- border-radius: 0.8em;
- width: 20em;
- height:32em; 
- flex-flow: column nowrap;
+display: flex; 
+background-color:white ;
+border-radius: 0.8em;
+width: 20em;
+height:31em; 
+flex-flow: column nowrap;
 }    
+
 img {
-    justify-content: center;
-    width: 9em;
-    height: 10em;
-    border-radius: 0.8em;
-    
+justify-content: center;
+width: 8em;
+height: 8em;
+border-radius: 0.5em;   
 }
 
 h2 {
-    font-family: kanit;
-    font-size: 23px;
-    margin-top: 0;
-    margin-bottom: 0;
-    text-align: center;
-   display: flex;
+font-family: kanit;
+font-size: 23px;
+margin-top: 0;
+margin-bottom: 0;
+text-align: center;
+display: flex;
+width: 280px;
 }
+
 h3 {  
-    font-family: 'Kanit', sans-serif;
-    text-align: center;  
-    font-size: 15px;
-    font-weight: 400;
-    margin-top: 5px;
-    width: 250px;
+font-family: 'Kanit', sans-serif;
+text-align: center;  
+font-size: 15px;
+font-weight: 400;
+width: 250px;
 }
-
-
-
-  /*
-  @media screen and (max-width: 375px)*/
+footer{
+    background-color: hsl(212, 45%, 89%);
+    height: 10%;
+    width: 100%;
+    margin-top: 4vh;
+   
+}
+.attribution {
+    background-color: hsl(212, 45%, 89%);
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.attribution { font-size: 10px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
