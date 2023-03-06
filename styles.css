@@ -10,7 +10,7 @@ flex-direction: column;
 }
 
 div {
-margin-top: 10vh;
+margin-top: 50px;
 flex-direction: row;
 align-items: center;
 flex-wrap: wrap;
@@ -50,7 +50,7 @@ footer{
     background-color: hsl(212, 45%, 89%);
     height: 10%;
     width: 100%;
-    margin-top: 4vh;
+    margin-top: 60px;
    
 }
 .attribution {
