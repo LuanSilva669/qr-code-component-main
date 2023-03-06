@@ -1,77 +1,49 @@
-div{
+body{
     display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    background: linear-gradient(to bottom, rgb(199, 199, 230), rgb(61, 61, 136), rgb(0, 0, 78));
-    flex-wrap: wrap;
-    
+flex-wrap: wrap;
+justify-content: center;
+background-color: blue;
+align-items: center;
+
 
 }
-h1 {
-    display: flex;
-    align-items: first baseline;
-    justify-content:center ;
-    background-color: white;
-    height: 80vh;
-    width: 28%;
-    border-radius: 10px;  
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: flex-start;
+div {
+    margin-top: 10vh;
+ flex-direction: column;
+ align-items: center;
+ flex-wrap: wrap;
+ display: flex; 
+ background-color:white ;
+ border-radius: 0.8em;
+ width: 20em;
+ height:28em; 
+    
+}    
+img {
+    justify-content: center;
+    width: 9em;
+    height: 8em;
+    border-radius: 0.8em;
     
 }
-.texto {
-    display: flex;
-    font-family: 'Kanit', sans-serif;
-     margin-bottom: 0;
-     height: 0px;
-     width: 55vh;
-     font-size: 25px;
-     font-style: normal;
-     text-align: center;
-     flex-wrap: wrap;
-     justify-content: center;
-     margin-top: 10px;
-}
-.texto2 {
-    font-family: 'Kanit', sans-serif;
-    margin-top: 20px;
+
+h2 {
+    font-family: kanit;
+    font-size: 3vh;
+    margin-top: 0;
     margin-bottom: 0;
-    height: 0px;
-    width: 50vh;
-    font-size: 15px;
+    text-align: center;
+   
+}
+h3 {
+    font-size: 2vh;
+    font-family: 'Kanit', sans-serif;
     font-weight: 400;
     text-align: center;
-
-    display: flex;
+    margin-top: 20;
 }
 
-img {
-    width: 40vh;
-    justify-content: flex-end;
-    margin-top: 20px;
-    border-radius: 10px;
-    flex-wrap: wrap;
-    display: flex;
-    margin-bottom: 0px;
-    display: flex;
-}
 
-@media screen and (max-width: 100%) {
-    h1 {
-        width: 90%;
-        height: 90vh;
-    }
-    .texto {
-        width: 100%;
-        font-size: 20px;
-    }
-    .texto2 {
-        width: 100%;
-        font-size: 13px;
-    }
-    img {
-        width: 40vh;
-        justify-content: center;
-    }
-}
+
+  /*
+  @media screen and (max-width: 375px)*/
