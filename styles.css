@@ -17,7 +17,7 @@ flex-wrap: wrap;
  background-color:white ;
  border-radius: 0.8em;
  width: 20em;
- height:32em; 
+ height:38em; 
  flex-flow: column nowrap;
 }    
 img {
@@ -32,7 +32,7 @@ img {
     margin-top: -20px;
 width: 18em;
 height: 15em;
-display: flex;
+display: block;
 }
 h2 {
     font-family: kanit;
