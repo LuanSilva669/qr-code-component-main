@@ -57,7 +57,7 @@ img {
     display: flex;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 100%) {
     h1 {
         width: 90%;
         height: 90vh;
