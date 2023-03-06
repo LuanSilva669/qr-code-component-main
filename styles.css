@@ -36,16 +36,18 @@ display: block;
 }
 h2 {
     font-family: kanit;
-    font-size: 4vh;
+    font-size: 23px;
     margin-top: 0;
     margin-bottom: 0;
     text-align: center;
-   
+   display: flex;
 }
 h3 {  
     font-family: 'Kanit', sans-serif;
     text-align: center;  
-    font-size: 2vh;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 5px;
 }
 
 
