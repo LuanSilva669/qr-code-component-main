@@ -17,7 +17,7 @@ flex-wrap: wrap;
  background-color:white ;
  border-radius: 0.8em;
  width: 20em;
- height:38em; 
+ height:30em; 
  flex-flow: column nowrap;
 }    
 img {
